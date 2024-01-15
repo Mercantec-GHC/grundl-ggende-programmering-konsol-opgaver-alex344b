@@ -38,4 +38,23 @@ Console.WriteLine(true);
 Console.WriteLine(false);
 
 
+//Here i will show a declared declare a variable
+//string firstName;
+//Variable name examples
+//char userOption;
+//int gameScore;
+//decimal particlesPerMillion;
+//bool processedCustomer;
+
+
+//Creating the first variable
+string firstName;
+firstName = "Bob";
+Console.WriteLine(firstName);
+//Here is the wrong way to assign a value to a variable
+//string firstName;
+//"Bob" = firstName;
+//This way of writing the code will give you yhis error - error CS0131: The left-hand side of an assignment must be a variable, property or indexer
+
+
 string userName = Console.ReadLine();
