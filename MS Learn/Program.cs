@@ -17,7 +17,8 @@ Console.Write("This is the first line.");
 //Module 2
 Console.WriteLine('b');
 //Demonstrating difference between double quotation and single quotation and shows char literal and string literal.
-Console.WriteLine("Hello world!"); //This code should produce the error - error CS1012: Too many characters in character literal.
+Console.WriteLine("Hello world!"); 
+//This code Console.WriteLine('Hello World!'); with single quotations should produce the error - error CS1012: Too many characters in character literal.
 
 
 //Here i will use the int literal and show what it does
@@ -27,5 +28,14 @@ Console.WriteLine(123);
 Console.WriteLine(0.25F);
 //Next i will make a int literal decimal, the compiler deafaults sets it automatically to a decimal, so that means i dont need a literal suffix
 Console.WriteLine(2.625);
+//Here i use letter m upper or lowercase it doesnt realyy matter, but here i use it as the literal suffix to makes sure its a decimal literal
+Console.WriteLine(12.39816m);
+
+
+//Here i will use Boolean literals
+//these lines of code is used to represent the idea of truth and false, also called bool, which is used for decision logic.
+Console.WriteLine(true);
+Console.WriteLine(false);
+
 
 string userName = Console.ReadLine();
