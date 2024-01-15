@@ -48,13 +48,40 @@ Console.WriteLine(false);
 
 
 //Creating the first variable
-string firstName;
-firstName = "Bob";
-Console.WriteLine(firstName);
+//Retriving the value stored in the variable, and reassigning the value of a variable
+//string firstName;
+//firstName = "Bob";
+//Console.WriteLine(firstName);
+//firstName = "Liem";
+//Console.WriteLine(firstName);
+//firstName = "Isabella";
+//Console.WriteLine(firstName);
+//firstName = "Yasmin";
+//Console.WriteLine(firstName);
+
 //Here is the wrong way to assign a value to a variable
 //string firstName;
 //"Bob" = firstName;
 //This way of writing the code will give you yhis error - error CS0131: The left-hand side of an assignment must be a variable, property or indexer
+
+//Initialize the variable
+// if you dont set a value before you retrive a value from a variable you will get an error - (2,19): error CS0165: Use of unassigned local variable 'firstName'
+//string firstName;
+//Console.WriteLine(firstName);
+
+//Challenge: Display literal and variable values
+string firstName;
+firstName = "Bob";
+Console.Write("Hello, ");
+Console.Write(firstName);
+Console.Write("! you have ");
+Console.Write(3);
+Console.Write(" messages in your inbox. ");
+Console.Write("The temperature is ");
+Console.Write(34.4m);
+Console.Write(" celsius.");
+
+
 
 
 string userName = Console.ReadLine();
