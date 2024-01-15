@@ -1,0 +1,14 @@
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\bin\Debug\net6.0\MS Learn.exe
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\bin\Debug\net6.0\MS Learn.deps.json
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\bin\Debug\net6.0\MS Learn.runtimeconfig.json
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\bin\Debug\net6.0\MS Learn.dll
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\bin\Debug\net6.0\MS Learn.pdb
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.AssemblyInfoInputs.cache
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.AssemblyInfo.cs
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.dll
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\refint\MS Learn.dll
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.pdb
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\MS Learn.genruntimeconfig.cache
+C:\Users\Alexander\Source\Repos\grundl-ggende-programmering-konsol-opgaver-alex344b\MS Learn\obj\Debug\net6.0\ref\MS Learn.dll
