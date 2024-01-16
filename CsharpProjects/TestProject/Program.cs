@@ -164,6 +164,7 @@ fraudulentOrderIDs[2] = "C789";
 
 
 //Create a variable to hold the current bin number and display the running total
+/*
 int[] inventory = { 200, 450, 700, 175, 250 };
 int sum = 0;
 int bin = 0;
@@ -175,6 +176,19 @@ foreach (int items in inventory)
 }
 
 Console.WriteLine($"We have a {sum} items in inventory");
+*/
+
+//nested iteration and selection statements
+
+string[] orderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+
+foreach (string orderID in orderIDs)
+{
+    if (orderID.StartsWith("B"))
+    {
+        Console.WriteLine(orderID);
+    }
+}
 
 
 
