@@ -58,58 +58,78 @@
 //     Console.WriteLine("DING DING DING DING DING DING!");
 // }
 
-Random dice = new Random();
 
-int roll1 = dice.Next(1, 7);
-int roll2 = dice.Next(1, 7);
-int roll3 = dice.Next(1, 7);
+//Game of doubles and triples
+// Random dice = new Random();
 
-int total = roll1 + roll2 + roll3;
+// int roll1 = dice.Next(1, 7);
+// int roll2 = dice.Next(1, 7);
+// int roll3 = dice.Next(1, 7);
 
-Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+// int total = roll1 + roll2 + roll3;
 
-if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+// Console.WriteLine($"Dice roll: {roll1} + {roll2} + {roll3} = {total}");
+
+// if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
+// {
+//     if ((roll1 == roll2) && (roll2 == roll3))
+//     {
+//         Console.WriteLine("you rolled triples! +6 bonus to total!");
+//         total += 6;
+//     }
+//     else
+//     {
+//         Console.WriteLine("you rolled doubles! +2 bonus to total");
+//         total += 2;
+//     }
+// }
+
+// if (total >= 14)
+// {
+//     Console.WriteLine("You Win a Bugatti!");
+// }
+// else if (total >= 10)
+// {
+//     Console.WriteLine("you win a new laptop!");
+// }
+// else if(total == 7)
+// {
+//     Console.WriteLine("you win a trip for two!");
+// }
+// else
+// {
+//     Console.WriteLine("Sorry, You Lose BASTARD! YOU GET NOTING! HAHAHAHA!");
+// }
+
+
+//Challenge: Improve renewal rate of subscriptions
+
+Random random = new Random();
+int daysUntilExperiration = random.Next(12);
+int discountPercentage = 0;
+
+if (daysUntilExperiration <= 10)
 {
-    if ((roll1 == roll2) && (roll2 == roll3))
+
+    if (daysUntilExperiration <= 5 && daysUntilExperiration >= 1)
     {
-        Console.WriteLine("you rolled triples! +6 bonus to total!");
-        total += 6;
+        discountPercentage = 10;
+        Console.WriteLine($"Your subscription expires in {daysUntilExperiration} days. Renew now and save {discountPercentage}%");
     }
-    else
+    else if (daysUntilExperiration == 1)
     {
-        Console.WriteLine("you rolled doubles! +2 bonus to total");
-        total += 2;
+        discountPercentage = 20;
+        Console.WriteLine($"Your subscription expires within a day! Renew now and save {discountPercentage}%!");
+    }
+    else if (daysUntilExperiration == 0)
+    {
+        Console.WriteLine("Your subscription has expired.");
+    }
+    else 
+    {
+        Console.WriteLine("Your subscription will expire soon. Renew now!");
     }
 }
-
-if (total >= 14)
-{
-    Console.WriteLine("You Win a Bugatti!");
-}
-else if (total >= 10)
-{
-    Console.WriteLine("you win a new laptop!");
-}
-else if(total == 7)
-{
-    Console.WriteLine("you win a trip for two!");
-}
-else
-{
-    Console.WriteLine("Sorry, You Lose BASTARD! YOU GET NOTING! HAHAHAHA!");
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
