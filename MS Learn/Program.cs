@@ -242,5 +242,9 @@ Console.WriteLine("Third: " + value);
 Console.WriteLine("Fourth: " + (++value));
 
 
+//Challenge: Calculate Celsius given the current temperature in Fahrenheit
+decimal value = (94 - 32) * (5m / 9);
+Console.WriteLine($"The temperature is {value} Celsius.");
+
 
 string userName = Console.ReadLine();
