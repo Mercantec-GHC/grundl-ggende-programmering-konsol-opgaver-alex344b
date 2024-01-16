@@ -192,22 +192,55 @@ Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
 
 //Add code to perform division using literal decimal data
 
-int first = 7;
-int second = 5;
-decimal quotient = (decimal)first / (decimal)second;
-Console.WriteLine(quotient);
+//int first = 7;
+//int second = 5;
+//decimal quotient = (decimal)first / (decimal)second;
+//Console.WriteLine(quotient);
 
 //Write code to determine the remainder after integer division
 
-Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}");
-Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
+//Console.WriteLine($"Modulus of 200 / 5 : {200 % 5}");
+//Console.WriteLine($"Modulus of 7 / 5 : {7 % 5}");
 
 //Write code to exercise C#'s order of operations
 
-int value1 = 3 + 4 * 5;
-int value2 = (3 + 4) * 5;
-Console.WriteLine(value1);
-Console.WriteLine(value2);
+//int value1 = 3 + 4 * 5;
+//int value2 = (3 + 4) * 5;
+//Console.WriteLine(value1);
+//Console.WriteLine(value2);
+
+//Write code to increment and decrement a value
+//int value = 1;
+
+//value = value + 1;
+//Console.WriteLine("First increment: " + value);
+
+//value += 1;
+//Console.WriteLine("Second increment: " + value);
+
+//value++;
+//Console.WriteLine("Third increment: " + value);
+
+//value = value - 1;
+//Console.WriteLine("First decrement: " + value);
+
+//value -= 1;
+//Console.WriteLine("Second decrement: " + value);
+
+//value--;
+//Console.WriteLine("Third decrement: " + value);
+
+
+
+//Use the increment operator before and after the value
+
+int value = 1;
+value++;
+Console.WriteLine("First: " + value);
+Console.WriteLine($"Second: {value++}");
+Console.WriteLine("Third: " + value);
+Console.WriteLine("Fourth: " + (++value));
+
 
 
 string userName = Console.ReadLine();
