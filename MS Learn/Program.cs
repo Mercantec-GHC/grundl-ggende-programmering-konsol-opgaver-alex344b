@@ -219,7 +219,7 @@ Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
 //Console.WriteLine("Second increment: " + value);
 
 //value++;
-//Console.WriteLine("Third increment: " + value);
+//Console.WriteLine("Third increment: " + value); 
 
 //value = value - 1;
 //Console.WriteLine("First decrement: " + value);
@@ -245,6 +245,11 @@ Console.WriteLine("Fourth: " + (++value));
 //Challenge: Calculate Celsius given the current temperature in Fahrenheit
 decimal value = (94 - 32) * (5m / 9);
 Console.WriteLine($"The temperature is {value} Celsius.");
+
+//"Real" solution
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is" + celsius + " Celsius.");
 
 
 string userName = Console.ReadLine();
