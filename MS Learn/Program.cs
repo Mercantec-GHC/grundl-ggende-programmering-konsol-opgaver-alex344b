@@ -4,40 +4,40 @@
 //Showing Console.WriteLine();
 using System.Security;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 //showing Console.Write();/ This cmd writes everything on the same line.
-Console.Write("Congratulations!");
-Console.Write(" ");
-Console.Write("You wrote your first line of code.");
+//Console.Write("Congratulations!");
+//Console.Write(" ");
+//Console.Write("You wrote your first line of code.");
 
 //combination of Console.Write(); and Console.WriteLine();
-Console.WriteLine("This is the first line.");
-Console.Write("This is the first line.");
+//Console.WriteLine("This is the first line.");
+//Console.Write("This is the first line.");
 
 
 //Module 2
-Console.WriteLine('b');
+//Console.WriteLine('b');
 //Demonstrating difference between double quotation and single quotation and shows char literal and string literal.
-Console.WriteLine("Hello world!"); 
+//Console.WriteLine("Hello world!"); 
 //This code Console.WriteLine('Hello World!'); with single quotations should produce the error - error CS1012: Too many characters in character literal.
 
 
 //Here i will use the int literal and show what it does
-Console.WriteLine(123);
+//Console.WriteLine(123);
 
 //Here i make a int literal Float, i use F to make sure it knows its float im working with. its called af literal suffix
-Console.WriteLine(0.25F);
+//Console.WriteLine(0.25F);
 //Next i will make a int literal decimal, the compiler deafaults sets it automatically to a decimal, so that means i dont need a literal suffix
-Console.WriteLine(2.625);
+//Console.WriteLine(2.625);
 //Here i use letter m upper or lowercase it doesnt realyy matter, but here i use it as the literal suffix to makes sure its a decimal literal
-Console.WriteLine(12.39816m);
+//Console.WriteLine(12.39816m);
 
 
 //Here i will use Boolean literals
 //these lines of code is used to represent the idea of truth and false, also called bool, which is used for decision logic.
-Console.WriteLine(true);
-Console.WriteLine(false);
+//Console.WriteLine(true);
+//Console.WriteLine(false);
 
 
 //Here i will show a declared declare a variable
@@ -162,12 +162,12 @@ Console.WriteLine(false);
 //Console.WriteLine($"{russianMessage}:\n\t\t{russianLocation}\n");
 
 //Numbers and adding stuff
-int firstNumber = 12;
-int secondNumber = 9;
-Console.WriteLine(firstNumber + secondNumber);
-string firstName = "Bob";
-int widgetsSold = 7;
-Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+//int firstNumber = 12;
+//int secondNumber = 9;
+//Console.WriteLine(firstNumber + secondNumber);
+//string firstName = "Bob";
+//int widgetsSold = 7;
+//Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
 
 //Exercise - Perform math operations
 
@@ -234,22 +234,82 @@ Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
 
 //Use the increment operator before and after the value
 
-int value = 1;
-value++;
-Console.WriteLine("First: " + value);
-Console.WriteLine($"Second: {value++}");
-Console.WriteLine("Third: " + value);
-Console.WriteLine("Fourth: " + (++value));
+//int value = 1;
+//value++;
+//Console.WriteLine("First: " + value);
+//Console.WriteLine($"Second: {value++}");
+//Console.WriteLine("Third: " + value);
+//Console.WriteLine("Fourth: " + (++value));
 
 
-//Challenge: Calculate Celsius given the current temperature in Fahrenheit
-decimal value = (94 - 32) * (5m / 9);
-Console.WriteLine($"The temperature is {value} Celsius.");
+////Challenge: Calculate Celsius given the current temperature in Fahrenheit
+//decimal value = (94 - 32) * (5m / 9);
+//Console.WriteLine($"The temperature is {value} Celsius.");
 
-//"Real" solution
-int fahrenheit = 94;
-decimal celsius = (fahrenheit - 32m) * (5m / 9m);
-Console.WriteLine("The temperature is" + celsius + " Celsius.");
+////"Real" solution
+//int fahrenheit = 94;
+//decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+//Console.WriteLine("The temperature is" + celsius + " Celsius.");
+
+
+//Setup: Use the following steps to prepare for the Guided project exercises:
+// initialize variables - graded assignments 
+int currentAssignments = 5;
+
+int sophia1 = 93;
+int sophia2 = 87;
+int sophia3 = 98;
+int sophia4 = 95;
+int sophia5 = 100;
+
+int nicolas1 = 80;
+int nicolas2 = 83;
+int nicolas3 = 82;
+int nicolas4 = 88;
+int nicolas5 = 85;
+
+int zahirah1 = 84;
+int zahirah2 = 96;
+int zahirah3 = 73;
+int zahirah4 = 85;
+int zahirah5 = 79;
+
+int jeong1 = 90;
+int jeong2 = 92;
+int jeong3 = 98;
+int jeong4 = 100;
+int jeong5 = 97;
+
+
+//Create variables to store the sum
+int sophiaSum = sophia1 + sophia2 + sophia3 + sophia4 + sophia5;
+int nicolasSum = nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5;
+int zahirahSum = zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5;
+int jeongSum = jeong1 + jeong2 + jeong3 + jeong4 + jeong5;
+
+//Create variables to store the average
+decimal sophiaScore = (decimal) sophiaSum / currentAssignments;
+decimal nicolasScore = (decimal) nicolasSum / currentAssignments;
+decimal zahirahScore = (decimal) zahirahSum / currentAssignments;
+decimal jeongScore = (decimal) jeongSum / currentAssignments;
+
+
+//Format the console output
+Console.WriteLine("Student\t\tGrade\n");
+Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
+Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
+Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
+Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
+
+
+
+
+
+
+
+
+
+
 
 
 string userName = Console.ReadLine();
