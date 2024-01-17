@@ -522,6 +522,7 @@ switch (employeeLevel)
 Console.WriteLine($"{employeeName}, {title}");
 */
 
+/*
 //rewrite if-elseif-else using a switch statement
 // SKU = Stock Keeping Unit. 
 // SKU value format: <product #>-<2-letter color code>-<size code>
@@ -579,3 +580,48 @@ switch (product[2])
 }
 
 Console.WriteLine($"Product: {size} {color} {type}");
+*/
+
+/*
+//Write a basic for statement
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(i);
+}
+*/
+
+//Changed the iteration conditions
+// for (int i = 10; i >= 0; i--)
+// {
+//     Console.WriteLine(i);
+// }
+
+//Experiment with the iterator's pattern
+// for (int i = 10; i >= 0; i -= 6)
+// {
+//     Console.WriteLine(i);
+// }
+
+//Using the break keyword to break the iteration statement
+
+// for (int i = 0; i < 10; i++)
+// {
+//     Console.WriteLine(i);
+//     if (i == 7) break;
+// }
+
+//Overcoming the limitation of the foreach statement using the for statement
+string[] names = { "Alex", "Eddie", "David", "Michael" };
+
+for (int i = 0; i < names.Length; i++)
+{
+    if (names[i] == "David")
+    {
+        names[i] = "Sammy";
+    }
+}
+
+foreach (var name in names)
+{
+    Console.WriteLine(name);
+}
