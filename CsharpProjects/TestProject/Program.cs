@@ -629,7 +629,7 @@ foreach (var name in names)
 */
 
 //activity using for and if statements
-
+/*
 for (int i = 1; i <101; i++)
 {
     if((i % 3 == 0) && (i % 5 == 0))
@@ -641,3 +641,40 @@ for (int i = 1; i <101; i++)
     else
         Console.WriteLine($"{i}");
 }
+*/
+
+//a do-while statement to break when a certain random number is generated
+/*
+Random random = new Random();
+int current = 0;
+
+do
+{
+    current = random.Next(1, 11);
+    Console.WriteLine(current);
+} while (current != 7);
+*/
+
+//Use the continue statement to step directly to the Boolean expression
+Random random = new Random();
+int current = random.Next(0, 11);
+
+do
+{
+    current = random.Next(1, 11);
+
+    if (current >= 8) continue;
+
+    Console.WriteLine(current);
+} while (current != 7);
+
+/*
+while (current >= 3)
+{
+    Console.WriteLine(current);
+    current = random.Next(1, 11);
+}
+Console.WriteLine($"Last number: {current}");
+*/
+
+//
