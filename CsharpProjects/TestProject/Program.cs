@@ -449,6 +449,7 @@ else
 
 
 //Create a variable inside of a code block
+/*
 bool flag = true;
 int value = 0;
 
@@ -459,3 +460,15 @@ if (flag)
 }
 
 Console.WriteLine($"Outside of code block: {value}");
+*/
+
+//Remove code blocks from if statements
+string name = "steve";
+
+if (name == "bob")
+    Console.WriteLine("Found Bob");    
+else if (name == "steve") 
+    Console.WriteLine("Found Steve");
+else
+    Console.WriteLine("Found Chuck");
+
