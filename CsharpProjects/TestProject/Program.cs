@@ -273,7 +273,7 @@ if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3))
 //Console.WriteLine("Hello World!")
 
 
-
+/*
 // initialize variables - graded assignments, plus ekstra students
 int examAssignments = 5;
 
@@ -394,3 +394,14 @@ foreach (string name in studentNames)
 // required for running in VS Code (keeps the Output windows open to view results)
 Console.WriteLine("\n\rPress the Enter key to continue");
 Console.ReadLine();
+
+*/
+
+
+// Use the inequality operator
+Console.WriteLine("a" != "a");
+Console.WriteLine("a" != "A");
+Console.WriteLine(1 != 2);
+
+string myValue = "a";
+Console.WriteLine(myValue != "a");
