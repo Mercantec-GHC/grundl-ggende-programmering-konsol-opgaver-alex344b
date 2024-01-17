@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\CsharpProjects",
+    "\\CsharpProjects\\TestProject",
     "\\MS Learn"
   ],
-  "SelectedNode": "\\MS Learn\\MS Learn.csproj",
+  "SelectedNode": "\\CsharpProjects\\TestProject\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
