@@ -611,6 +611,7 @@ for (int i = 0; i < 10; i++)
 // }
 
 //Overcoming the limitation of the foreach statement using the for statement
+/*
 string[] names = { "Alex", "Eddie", "David", "Michael" };
 
 for (int i = 0; i < names.Length; i++)
@@ -624,4 +625,19 @@ for (int i = 0; i < names.Length; i++)
 foreach (var name in names)
 {
     Console.WriteLine(name);
+}
+*/
+
+//activity using for and if statements
+
+for (int i = 1; i <101; i++)
+{
+    if((i % 3 == 0) && (i % 5 == 0))
+        Console.WriteLine($"{i} - FizzBuzz");
+    else if (i % 3 == 0)
+        Console.WriteLine($"{i} - Fizz");
+    else if (i % 5 == 0)
+        Console.WriteLine($"{i} - Buzz");
+    else
+        Console.WriteLine($"{i}");
 }
