@@ -398,6 +398,7 @@ Console.ReadLine();
 */
 
 
+/*
 // Use the inequality operator
 Console.WriteLine("a" != "a");
 Console.WriteLine("a" != "A");
@@ -405,3 +406,10 @@ Console.WriteLine(1 != 2);
 
 string myValue = "a";
 Console.WriteLine(myValue != "a");
+*/
+
+
+//code to display the result of a coin flip
+Random coin = new Random();
+int flip = coin.Next(0, 2);
+Console.WriteLine((flip == 0) ? "heads" : "tails");
