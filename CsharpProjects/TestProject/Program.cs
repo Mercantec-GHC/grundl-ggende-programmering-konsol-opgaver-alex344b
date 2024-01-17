@@ -414,6 +414,7 @@ Console.WriteLine(myValue != "a");
 // int flip = coin.Next(0, 2);
 // Console.WriteLine((flip == 0) ? "heads" : "tails");
 
+/*
 //Boolean expressions challenge
 string permission = "Admin|Manager";
 int level = 53;
@@ -444,4 +445,17 @@ else
 {
     Console.WriteLine("You do not have sufficient privileges.");
 }
+*/
 
+
+//Create a variable inside of a code block
+bool flag = true;
+int value = 0;
+
+if (flag)
+{
+    value = 10;
+    Console.WriteLine($"Inside of code block: " + value);
+}
+
+Console.WriteLine($"Outside of code block: {value}");
