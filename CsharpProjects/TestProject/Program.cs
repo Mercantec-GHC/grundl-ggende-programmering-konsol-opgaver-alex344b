@@ -808,6 +808,7 @@ int value3 = Convert.ToInt32(1.5m); //converting rounds up
 Console.WriteLine(value3);
 */ 
 
+/*
 //TryParse() a string into an int
 string value = "bad";
 int result = 0;
@@ -821,4 +822,24 @@ else
 }
 if (result > 0)
 Console.WriteLine($"Mearsurement (w/ offser): {50 + result}");
+*/
 
+//combine string array values as strings and as integers
+string[] values = {"12.3", "45", "ABC", "11", "DEF"};
+decimal sum = 0m; 
+string message = "";
+
+foreach (var value in values)
+{
+    decimal number; //uses and stores the TryParse "out" value
+    if (decimal.TryParse(value, out number))
+    {
+        sum += number;
+    }
+    else
+    {
+        message += value;
+    }
+}
+Console.WriteLine($"Message: {message}");
+Console.WriteLine($"Total: {sum}");
