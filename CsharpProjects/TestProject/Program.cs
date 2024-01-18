@@ -764,14 +764,44 @@ Console.WriteLine($"Float: {myFloat}");
 */
 
 //Performing Data Conversions
+//int to string
 int first = 6;
 int second = 9;
 
 string message = first.ToString() + second.ToString();
 Console.WriteLine(message);
 
+//normal string
 string first1 = "6";
+string second1 = "9";
+
+string message1 = first1 + second1;
+Console.WriteLine(message1);
+
+//normal int
+int first3 = 60;
+int second3 = 9;
+
+int message2 = first3 + second3;
+Console.WriteLine(message2);
+
+//string to int
+string first2 = "60";
 string second2 = "9";
 
-string message1 = first1 + second2;
-Console.WriteLine(message1);
+int sum = int.Parse(first2) + int.Parse(second2);
+Console.WriteLine(sum);
+
+//Convert a string to a int using the Convert class
+string value1 = "6";
+string value2 = "9";
+
+int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+Console.WriteLine(result);
+
+//Compare casting and converting a decimal into an int
+int value = (int)1.5m; //casting truncates / rounds down
+Console.WriteLine(value);
+
+int value3 = Convert.ToInt32(1.5m); //converting rounds up
+Console.WriteLine(value3);
