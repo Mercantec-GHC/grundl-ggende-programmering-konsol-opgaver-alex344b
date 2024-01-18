@@ -763,6 +763,7 @@ Console.WriteLine($"Decimal: {myDecimal}");
 Console.WriteLine($"Float: {myFloat}");
 */
 
+/*
 //Performing Data Conversions
 //int to string
 int first = 6;
@@ -805,3 +806,19 @@ Console.WriteLine(value);
 
 int value3 = Convert.ToInt32(1.5m); //converting rounds up
 Console.WriteLine(value3);
+*/ 
+
+//TryParse() a string into an int
+string value = "bad";
+int result = 0;
+if (int.TryParse(value, out result))
+{
+    Console.WriteLine($"Measurement: {result}");
+}
+else
+{
+    Console.WriteLine("Unabale to report measurement.");
+}
+if (result > 0)
+Console.WriteLine($"Mearsurement (w/ offser): {50 + result}");
+
