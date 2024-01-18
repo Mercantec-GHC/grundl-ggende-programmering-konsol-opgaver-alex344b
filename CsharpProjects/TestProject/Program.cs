@@ -973,11 +973,12 @@ foreach (string item in items)
 
 //Write code to reverse each word in a message
 //one way to do it i guess
-// string pangram = "The quick brown fox jumps over the lazy dog";
-// char[] newPangram = pangram.ToCharArray();
-// Array.Reverse(newPangram);
+/*
+string pangram = "The quick brown fox jumps over the lazy dog";
+char[] newPangram = pangram.ToCharArray();
+Array.Reverse(newPangram);
 
-// Console.WriteLine(newPangram);
+Console.WriteLine(newPangram);
 
 // another way to do it.
 string pangram = "The quick brown fox jumps over the lazy dog";
@@ -992,4 +993,4 @@ for (int i = 0; i < message.Length; i++)
 
 string result = string.Join(" ", newMessage);
 Console.WriteLine(result);
-
+*/
