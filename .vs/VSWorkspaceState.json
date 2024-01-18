@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\CsharpProjects",
+<<<<<<< Updated upstream
     "\\CsharpProjects\\TestProject",
     "\\MS Learn"
+=======
+    "\\CsharpProjects\\TestProject"
+>>>>>>> Stashed changes
   ],
   "SelectedNode": "\\CsharpProjects\\TestProject\\Program.cs",
   "PreviewInSolutionExplorer": false

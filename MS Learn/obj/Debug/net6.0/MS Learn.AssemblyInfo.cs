@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MS Learn")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6da860caa2ba0f1f3c5a786424f0cc41349a45d")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc45b448683937cc0bb5b0c57a5f269b02ee6f62")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("MS Learn")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MS Learn")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
