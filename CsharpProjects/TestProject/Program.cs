@@ -1116,7 +1116,7 @@ string paymentId = "769C";
  Console.WriteLine("1234567890123456789012345678901234567890");
  Console.WriteLine(formattedLine);
  */
-
+/*
  //apply string interpolation to a form letter
  
  string customerName = "Ms. Barros";
@@ -1149,3 +1149,160 @@ comparisonMessage += string.Format("{0:P}", newReturn).PadRight(10);
 comparisonMessage += string.Format("{0:C}", newProfit).PadRight(20);
 
 Console.WriteLine(comparisonMessage);
+*/
+
+/*
+//Write code to find parenthesis pairs embedded in a string
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+Console.WriteLine(openingPosition);
+Console.WriteLine(closingPosition);
+
+//update
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+// Console.WriteLine(openingPosition);
+// Console.WriteLine(closingPosition);
+
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+
+//Modify the starting position of the sub string
+string message = "Find what is (inside the parentheses)";
+
+int openingPosition = message.IndexOf('(');
+int closingPosition = message.IndexOf(')');
+
+openingPosition += 1;
+//modification
+//openingPosition += 6;
+
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+
+//Avoid magic values (Hardcoded strings like "<span>" in the previous code listing are known as "magic strings" and hardcoded numeric values like 6 are known as "magic numbers". These "Magic" values are undesirable for many reasons and you should try to avoid them if possible.)
+
+string message = "What is the value <span>between the tags</span>?";
+
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int openingPosition = message.IndexOf(openSpan);
+int closingPosition = message.IndexOf(closeSpan);
+
+openingPosition += openSpan.Length;
+int length = closingPosition - openingPosition;
+Console.WriteLine(message.Substring(openingPosition, length));
+*/
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////
+//if there is different symbols but every open symbol needs a matching closing symbol
+string message = "(What if) I have [different symbols] but every {open symbol} needs a [matching closing symbol]?";
+
+// The IndexOfAny() helper method requires a char array of characters. 
+// You want to look for:
+
+char[] openSymbols = { '[', '{', '(' };
+
+// You'll use a slightly different technique for iterating through 
+// the characters in the string. This time, use the closing 
+// position of the previous iteration as the starting index for the 
+//next open symbol. So, you need to initialize the closingPosition 
+// variable to zero:
+
+int closingPosition = 0;
+
+while (true)
+{
+    int openingPosition = message.IndexOfAny(openSymbols, closingPosition);
+
+    if (openingPosition == -1) break;
+
+    string currentSymbol = message.Substring(openingPosition, 1);
+
+    // Now  find the matching closing symbol
+    char matchingSymbol = ' ';
+
+    switch (currentSymbol)
+    {
+        case "[":
+            matchingSymbol = ']';
+            break;
+        case "{":
+            matchingSymbol = '}';
+            break;
+        case "(":
+            matchingSymbol = ')';
+            break;
+    }
+
+    // To find the closingPosition, use an overload of the IndexOf method to specify 
+    // that the search for the matchingSymbol should start at the openingPosition in the string. 
+
+    openingPosition += 1;
+    closingPosition = message.IndexOf(matchingSymbol, openingPosition);
+
+    // Finally, use the techniques you've already learned to display the sub-string:
+
+    int length = closingPosition - openingPosition;
+    Console.WriteLine(message.Substring(openingPosition, length));
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////
+/*
+//removing characters in spefific locations from a string
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20);
+Console.WriteLine(updatedData);
+
+// replace method, to replace one or more characters
+string message = "This--is--ex-amp-le--da-ta";
+message = message.Replace("--", " ");
+message = message.Replace("-", "");
+Console.WriteLine(message);
+*/
+
+/*
+//Extract, replace, and remove data from an input string
+const string input = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+// Your work here
+//get the quantity
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int quantityStart = input.IndexOf(openSpan) + openSpan.Length; // + length of <span> so index at end if <span> tag
+int quantityEnd = input.IndexOf(closeSpan);
+int quantityLength = quantityEnd - quantityStart;
+quantity = input.Substring(quantityStart, quantityLength);
+quantity = $"Quantity: {quantity}";
+
+//we set the output to the input, where we replace the trademark symbol with registered trademark symbol
+const string tradeSymbol = "&trade";
+const string regSymbol = "&reg";
+output = input.Replace(tradeSymbol, regSymbol);
+
+//here we are gonna remove the opening div tag
+const string openDiv = "<div>";
+int divStart = output.IndexOf(openDiv);
+output = output.Remove(divStart, openDiv.Length);
+
+//We will remove the closing div and add "Output:" in the beginning
+const string closeDiv = "</div>";
+int divCloseStart = output.IndexOf(closeDiv);
+output = "Output: " + output.Remove(divCloseStart, closeDiv.Length);
+
+Console.WriteLine(quantity);
+Console.WriteLine(output);
+*/
+
