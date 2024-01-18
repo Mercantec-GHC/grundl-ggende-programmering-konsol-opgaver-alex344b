@@ -754,9 +754,24 @@ int myInt = (int)myDecimal;
 Console.WriteLine($"int: {myInt}");
 */
 
+/*
 //widening conversion or narrowing conversion
 decimal myDecimal = 1.23456789m;
 float myFloat = (float)myDecimal;
 
 Console.WriteLine($"Decimal: {myDecimal}");
 Console.WriteLine($"Float: {myFloat}");
+*/
+
+//Performing Data Conversions
+int first = 6;
+int second = 9;
+
+string message = first.ToString() + second.ToString();
+Console.WriteLine(message);
+
+string first1 = "6";
+string second2 = "9";
+
+string message1 = first1 + second2;
+Console.WriteLine(message1);
