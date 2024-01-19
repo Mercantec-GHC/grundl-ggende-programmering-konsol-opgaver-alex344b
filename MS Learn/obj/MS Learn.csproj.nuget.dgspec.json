@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\Source\\Repos\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj": {}
+    "C:\\Users\\alexa\\Documents\\GitHub\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\Source\\Repos\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj": {
+    "C:\\Users\\alexa\\Documents\\GitHub\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\Source\\Repos\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj",
         "projectName": "MS Learn",
-        "projectPath": "C:\\Users\\Alexander\\Source\\Repos\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\Source\\Repos\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\obj\\",
+        "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj",
+        "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

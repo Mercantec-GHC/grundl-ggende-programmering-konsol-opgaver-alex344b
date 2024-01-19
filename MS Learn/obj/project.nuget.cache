@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yNs3MKz/oZpUFtrGHMjXGxCeH2beBnCw9HKsQtjcJSAmM8jj5uhrMFpzlIVkaPQiFIu0ybbfnZYB5p97yUWbTQ==",
+  "dgSpecHash": "vUNkMgNxBHI0mknuK5kEkayVfyVN7NSPKeH/vppy3XLWb18nJxr1PUTeFbdxMJE0wcgDl9LNZqUS6ZAvCiUq1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexander\\Source\\Repos\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\Documents\\GitHub\\grundl-ggende-programmering-konsol-opgaver-alex344b\\MS Learn\\MS Learn.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\alexa\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }
