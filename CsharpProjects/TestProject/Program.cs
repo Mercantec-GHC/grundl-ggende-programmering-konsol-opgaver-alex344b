@@ -1364,6 +1364,7 @@ void DisplayRandomNumbers()
 */
 
 //Identify duplicated code
+/*
 using System;
 
 int[] times = {800, 1200, 1600, 2000};
@@ -1398,7 +1399,7 @@ DisplayTimes();
 
 void DisplayTimes()
 {
-    /* Format and display medicine times */
+    /* Format and display medicine times 
     foreach (int val in times)
     {
         string time = val.ToString();
@@ -1421,7 +1422,7 @@ void DisplayTimes()
     }
 
     Console.WriteLine();
-}
+}s
 
 void AdjustTimes()
 {
@@ -1430,3 +1431,6 @@ void AdjustTimes()
         times[i] = ((times[i] + diff)) % 2400;
     }
 }
+*/
+
+//Use methods to structure code
